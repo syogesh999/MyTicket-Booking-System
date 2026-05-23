@@ -34,44 +34,44 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.0)
 
-2026-05-22T22:25:47.288+05:30  INFO 16540 --- [user-service] [           main] com.irctc.user.UserServiceApplication    : Starting UserServiceApplication using Java 17.0.12 with PID 16540 (C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\target\classes started by Admin in C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service)
-2026-05-22T22:25:47.292+05:30  INFO 16540 --- [user-service] [           main] com.irctc.user.UserServiceApplication    : No active profile set, falling back to 1 default profile: "default"
-2026-05-22T22:25:49.540+05:30  INFO 16540 --- [user-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-22T22:25:49.986+05:30  INFO 16540 --- [user-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 421 ms. Found 1 JPA repository interface.
-2026-05-22T22:25:50.557+05:30  INFO 16540 --- [user-service] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=abf0152e-16a5-38e7-af66-9f98adc5bbd2
-2026-05-22T22:25:51.441+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2026-05-22T22:25:51.450+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.456+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.479+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.485+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.489+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$600/0x000001e24346ac38] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.498+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.514+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.531+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.536+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.538+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.540+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.578+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.602+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.610+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.615+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.620+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:51.626+05:30  WARN 16540 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-05-22T22:25:52.403+05:30  INFO 16540 --- [user-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2026-05-22T22:25:52.425+05:30  INFO 16540 --- [user-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-22T22:25:52.425+05:30  INFO 16540 --- [user-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
-2026-05-22T22:25:52.605+05:30  INFO 16540 --- [user-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-05-22T22:25:52.608+05:30  INFO 16540 --- [user-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5216 ms
-2026-05-22T22:25:52.977+05:30  INFO 16540 --- [user-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-22T22:25:53.520+05:30  INFO 16540 --- [user-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ticket_booking_users user=SA
-2026-05-22T22:25:53.525+05:30  INFO 16540 --- [user-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-22T22:25:53.552+05:30  INFO 16540 --- [user-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ticket_booking_users'
-2026-05-22T22:25:54.187+05:30  INFO 16540 --- [user-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-05-22T22:25:54.357+05:30  INFO 16540 --- [user-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
-2026-05-22T22:25:54.514+05:30  INFO 16540 --- [user-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-05-22T22:25:55.215+05:30  INFO 16540 --- [user-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-22T22:25:55.341+05:30  WARN 16540 --- [user-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-05-22T22:25:57.440+05:30  INFO 16540 --- [user-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-23T12:39:20.366+05:30  INFO 7764 --- [user-service] [           main] com.irctc.user.UserServiceApplication    : Starting UserServiceApplication using Java 17.0.12 with PID 7764 (C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\target\classes started by Admin in C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service)
+2026-05-23T12:39:20.371+05:30  INFO 7764 --- [user-service] [           main] com.irctc.user.UserServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-05-23T12:39:21.778+05:30  INFO 7764 --- [user-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-23T12:39:21.985+05:30  INFO 7764 --- [user-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 194 ms. Found 1 JPA repository interface.
+2026-05-23T12:39:22.268+05:30  INFO 7764 --- [user-service] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=abf0152e-16a5-38e7-af66-9f98adc5bbd2
+2026-05-23T12:39:22.785+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-05-23T12:39:22.793+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.798+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.812+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.816+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.819+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$600/0x000001ab0146a128] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.826+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.836+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.846+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.851+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.852+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.854+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.878+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.893+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.898+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.901+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.907+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:22.912+05:30  WARN 7764 --- [user-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-23T12:39:23.501+05:30  INFO 7764 --- [user-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-05-23T12:39:23.517+05:30  INFO 7764 --- [user-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-23T12:39:23.518+05:30  INFO 7764 --- [user-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-05-23T12:39:23.666+05:30  INFO 7764 --- [user-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-23T12:39:23.668+05:30  INFO 7764 --- [user-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3225 ms
+2026-05-23T12:39:23.942+05:30  INFO 7764 --- [user-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-23T12:39:24.579+05:30  INFO 7764 --- [user-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ticket_booking_users user=SA
+2026-05-23T12:39:24.584+05:30  INFO 7764 --- [user-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-23T12:39:24.612+05:30  INFO 7764 --- [user-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ticket_booking_users'
+2026-05-23T12:39:25.218+05:30  INFO 7764 --- [user-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-23T12:39:25.362+05:30  INFO 7764 --- [user-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-05-23T12:39:25.447+05:30  INFO 7764 --- [user-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-23T12:39:26.063+05:30  INFO 7764 --- [user-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-23T12:39:26.210+05:30  WARN 7764 --- [user-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-23T12:39:28.829+05:30  INFO 7764 --- [user-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 Hibernate: 
     create table users (
         id bigint generated by default as identity,
@@ -87,37 +87,37 @@ Hibernate:
 Hibernate: 
     alter table if exists users 
        add constraint UK_6dotkott2kjsp8vw4d0m25fb7 unique (email)
-2026-05-22T22:25:57.556+05:30  INFO 16540 --- [user-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-22T22:25:58.565+05:30  WARN 16540 --- [user-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-22T22:26:01.411+05:30  INFO 16540 --- [user-service] [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2026-05-22T22:26:01.534+05:30  WARN 16540 --- [user-service] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2026-05-22T22:26:01.559+05:30  INFO 16540 --- [user-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2026-05-22T22:26:01.733+05:30  INFO 16540 --- [user-service] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2026-05-22T22:26:01.862+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2026-05-22T22:26:01.868+05:30  INFO 16540 --- [user-service] [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-22T22:26:01.900+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2026-05-22T22:26:01.900+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2026-05-22T22:26:01.900+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2026-05-22T22:26:01.900+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2026-05-22T22:26:01.900+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2026-05-22T22:26:01.900+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2026-05-22T22:26:01.900+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2026-05-22T22:26:02.587+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2026-05-22T22:26:02.593+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2026-05-22T22:26:02.599+05:30  INFO 16540 --- [user-service] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2026-05-22T22:26:02.599+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1779468962599 with initial instances count: 1
-2026-05-22T22:26:02.625+05:30  INFO 16540 --- [user-service] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-SERVICE with eureka with status UP
-2026-05-22T22:26:02.631+05:30  INFO 16540 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779468962631, current=UP, previous=STARTING]
-2026-05-22T22:26:02.635+05:30  INFO 16540 --- [user-service] [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/user-service:8081: registering service...
-2026-05-22T22:26:02.694+05:30  INFO 16540 --- [user-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
-2026-05-22T22:26:02.696+05:30  INFO 16540 --- [user-service] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
-2026-05-22T22:26:02.736+05:30  INFO 16540 --- [user-service] [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/user-service:8081 - registration status: 204
-2026-05-22T22:26:03.040+05:30  INFO 16540 --- [user-service] [           main] com.irctc.user.UserServiceApplication    : Started UserServiceApplication in 16.934 seconds (process running for 17.71)
-2026-05-22T22:27:50.175+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-22T22:27:50.175+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-22T22:27:50.178+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2026-05-22T22:27:50.442+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] c.irctc.user.controller.UserController   : POST /users - Creating user: arjun.sharma@quantum.in
-2026-05-22T22:27:50.453+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] com.irctc.user.service.UserServiceImpl   : Creating user with email: arjun.sharma@quantum.in
+2026-05-23T12:39:29.030+05:30  INFO 7764 --- [user-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-23T12:39:30.325+05:30  WARN 7764 --- [user-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-23T12:39:32.862+05:30  INFO 7764 --- [user-service] [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-05-23T12:39:32.966+05:30  WARN 7764 --- [user-service] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-05-23T12:39:32.997+05:30  INFO 7764 --- [user-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2026-05-23T12:39:33.139+05:30  INFO 7764 --- [user-service] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-05-23T12:39:33.264+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-05-23T12:39:33.272+05:30  INFO 7764 --- [user-service] [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-23T12:39:33.315+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-05-23T12:39:33.316+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-05-23T12:39:33.316+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-05-23T12:39:33.317+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-05-23T12:39:33.317+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-05-23T12:39:33.317+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-05-23T12:39:33.318+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-05-23T12:39:33.992+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-05-23T12:39:33.997+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-05-23T12:39:34.002+05:30  INFO 7764 --- [user-service] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-05-23T12:39:34.009+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1779520174008 with initial instances count: 1
+2026-05-23T12:39:34.034+05:30  INFO 7764 --- [user-service] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-SERVICE with eureka with status UP
+2026-05-23T12:39:34.035+05:30  INFO 7764 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779520174035, current=UP, previous=STARTING]
+2026-05-23T12:39:34.038+05:30  INFO 7764 --- [user-service] [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/user-service:8081: registering service...
+2026-05-23T12:39:34.076+05:30  INFO 7764 --- [user-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2026-05-23T12:39:34.077+05:30  INFO 7764 --- [user-service] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2026-05-23T12:39:34.101+05:30  INFO 7764 --- [user-service] [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/user-service:8081 - registration status: 204
+2026-05-23T12:39:34.332+05:30  INFO 7764 --- [user-service] [           main] com.irctc.user.UserServiceApplication    : Started UserServiceApplication in 14.973 seconds (process running for 15.642)
+2026-05-23T12:41:04.550+05:30  INFO 7764 --- [user-service] [nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-23T12:41:04.550+05:30  INFO 7764 --- [user-service] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-23T12:41:04.555+05:30  INFO 7764 --- [user-service] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-05-23T12:41:04.677+05:30  INFO 7764 --- [user-service] [nio-8081-exec-2] c.irctc.user.controller.UserController   : POST /users - Creating user: arjun@example.com
+2026-05-23T12:41:04.684+05:30  INFO 7764 --- [user-service] [nio-8081-exec-2] com.irctc.user.service.UserServiceImpl   : Creating user with email: arjun@example.com
 Hibernate: 
     select
         u1_0.id 
@@ -134,58 +134,57 @@ Hibernate:
         (email, name, password, phone, id) 
     values
         (?, ?, ?, ?, default)
-2026-05-22T22:27:50.827+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] com.irctc.user.service.UserServiceImpl   : User created successfully with ID: 1
-2026-05-22T22:27:50.992+05:30  INFO 16540 --- [user-service] [nio-8081-exec-2] c.irctc.user.controller.UserController   : POST /users - Creating user: priya.patel@quantum.in
-2026-05-22T22:27:50.992+05:30  INFO 16540 --- [user-service] [nio-8081-exec-2] com.irctc.user.service.UserServiceImpl   : Creating user with email: priya.patel@quantum.in
+2026-05-23T12:41:04.852+05:30  INFO 7764 --- [user-service] [nio-8081-exec-2] com.irctc.user.service.UserServiceImpl   : User created successfully with ID: 1
+2026-05-23T12:41:04.958+05:30  INFO 7764 --- [user-service] [nio-8081-exec-1] c.irctc.user.controller.UserController   : GET /users - Fetching all users
+2026-05-23T12:41:04.958+05:30  INFO 7764 --- [user-service] [nio-8081-exec-1] com.irctc.user.service.UserServiceImpl   : Fetching all users
 Hibernate: 
     select
-        u1_0.id 
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.phone 
+    from
+        users u1_0
+2026-05-23T12:41:04.999+05:30  INFO 7764 --- [user-service] [nio-8081-exec-3] c.irctc.user.controller.UserController   : GET /users/1 - Fetching user
+2026-05-23T12:41:04.999+05:30  INFO 7764 --- [user-service] [nio-8081-exec-3] com.irctc.user.service.UserServiceImpl   : Fetching user by ID: 1
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.phone 
     from
         users u1_0 
     where
-        u1_0.email=? 
-    fetch
-        first ? rows only
-Hibernate: 
-    insert 
-    into
-        users
-        (email, name, password, phone, id) 
-    values
-        (?, ?, ?, ?, default)
-2026-05-22T22:27:51.002+05:30  INFO 16540 --- [user-service] [nio-8081-exec-2] com.irctc.user.service.UserServiceImpl   : User created successfully with ID: 2
-2026-05-22T22:27:51.100+05:30  INFO 16540 --- [user-service] [nio-8081-exec-3] c.irctc.user.controller.UserController   : POST /users - Creating user: rahul.verma@quantum.in
-2026-05-22T22:27:51.103+05:30  INFO 16540 --- [user-service] [nio-8081-exec-3] com.irctc.user.service.UserServiceImpl   : Creating user with email: rahul.verma@quantum.in
+        u1_0.id=?
+2026-05-23T12:41:05.023+05:30  INFO 7764 --- [user-service] [nio-8081-exec-4] c.irctc.user.controller.UserController   : PUT /users/1 - Updating user
+2026-05-23T12:41:05.024+05:30  INFO 7764 --- [user-service] [nio-8081-exec-4] com.irctc.user.service.UserServiceImpl   : Updating user with ID: 1
 Hibernate: 
     select
-        u1_0.id 
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.phone 
     from
         users u1_0 
     where
-        u1_0.email=? 
-    fetch
-        first ? rows only
+        u1_0.id=?
+2026-05-23T12:41:05.027+05:30  INFO 7764 --- [user-service] [nio-8081-exec-4] com.irctc.user.service.UserServiceImpl   : User updated successfully with ID: 1
 Hibernate: 
-    insert 
-    into
-        users
-        (email, name, password, phone, id) 
-    values
-        (?, ?, ?, ?, default)
-2026-05-22T22:27:51.109+05:30  INFO 16540 --- [user-service] [nio-8081-exec-3] com.irctc.user.service.UserServiceImpl   : User created successfully with ID: 3
-2026-05-22T22:29:03.837+05:30  INFO 16540 --- [user-service] [nio-8081-exec-5] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:29:03.838+05:30  INFO 16540 --- [user-service] [nio-8081-exec-5] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:29:05.970+05:30  INFO 16540 --- [user-service] [nio-8081-exec-6] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:29:05.972+05:30  INFO 16540 --- [user-service] [nio-8081-exec-6] com.irctc.user.service.UserServiceImpl   : Fetching all users
+    update
+        users 
+    set
+        email=?,
+        name=?,
+        password=?,
+        phone=? 
+    where
+        id=?
+2026-05-23T12:41:05.857+05:30  INFO 7764 --- [user-service] [nio-8081-exec-5] c.irctc.user.controller.UserController   : GET /users/1 - Fetching user
+2026-05-23T12:41:05.857+05:30  INFO 7764 --- [user-service] [nio-8081-exec-5] com.irctc.user.service.UserServiceImpl   : Fetching user by ID: 1
 Hibernate: 
     select
         u1_0.id,
@@ -194,9 +193,18 @@ Hibernate:
         u1_0.password,
         u1_0.phone 
     from
-        users u1_0
-2026-05-22T22:29:15.608+05:30  INFO 16540 --- [user-service] [nio-8081-exec-7] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:29:15.609+05:30  INFO 16540 --- [user-service] [nio-8081-exec-7] com.irctc.user.service.UserServiceImpl   : Fetching all users
+        users u1_0 
+    where
+        u1_0.id=?
+2026-05-23T12:41:06.824+05:30  INFO 7764 --- [user-service] [nio-8081-exec-6] c.irctc.user.controller.UserController   : DELETE /users/1 - Deleting user
+2026-05-23T12:41:06.825+05:30  INFO 7764 --- [user-service] [nio-8081-exec-6] com.irctc.user.service.UserServiceImpl   : Deleting user with ID: 1
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
 Hibernate: 
     select
         u1_0.id,
@@ -205,255 +213,26 @@ Hibernate:
         u1_0.password,
         u1_0.phone 
     from
-        users u1_0
-2026-05-22T22:29:27.597+05:30  INFO 16540 --- [user-service] [nio-8081-exec-8] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:29:27.599+05:30  INFO 16540 --- [user-service] [nio-8081-exec-8] com.irctc.user.service.UserServiceImpl   : Fetching all users
+        users u1_0 
+    where
+        u1_0.id=?
+2026-05-23T12:41:07.016+05:30  INFO 7764 --- [user-service] [nio-8081-exec-6] com.irctc.user.service.UserServiceImpl   : User deleted successfully with ID: 1
 Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
+    delete 
     from
-        users u1_0
-2026-05-22T22:29:39.588+05:30  INFO 16540 --- [user-service] [nio-8081-exec-9] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:29:39.589+05:30  INFO 16540 --- [user-service] [nio-8081-exec-9] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:30:48.283+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:30:48.283+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:30:48.823+05:30  INFO 16540 --- [user-service] [nio-8081-exec-2] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:30:48.826+05:30  INFO 16540 --- [user-service] [nio-8081-exec-2] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:31:00.095+05:30  INFO 16540 --- [user-service] [nio-8081-exec-3] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:31:00.096+05:30  INFO 16540 --- [user-service] [nio-8081-exec-3] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:31:01.916+05:30  INFO 16540 --- [user-service] [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-22T22:31:12.099+05:30  INFO 16540 --- [user-service] [nio-8081-exec-4] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:31:12.100+05:30  INFO 16540 --- [user-service] [nio-8081-exec-4] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:31:24.273+05:30  INFO 16540 --- [user-service] [nio-8081-exec-5] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:31:24.273+05:30  INFO 16540 --- [user-service] [nio-8081-exec-5] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:31:36.269+05:30  INFO 16540 --- [user-service] [nio-8081-exec-6] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:31:36.269+05:30  INFO 16540 --- [user-service] [nio-8081-exec-6] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:31:48.269+05:30  INFO 16540 --- [user-service] [nio-8081-exec-7] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:31:48.269+05:30  INFO 16540 --- [user-service] [nio-8081-exec-7] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:32:00.261+05:30  INFO 16540 --- [user-service] [nio-8081-exec-8] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:32:00.261+05:30  INFO 16540 --- [user-service] [nio-8081-exec-8] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:32:12.279+05:30  INFO 16540 --- [user-service] [nio-8081-exec-9] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:32:12.279+05:30  INFO 16540 --- [user-service] [nio-8081-exec-9] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:33:04.295+05:30  INFO 16540 --- [user-service] [io-8081-exec-10] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:33:04.295+05:30  INFO 16540 --- [user-service] [io-8081-exec-10] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:34:04.271+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:34:04.271+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:35:04.269+05:30  INFO 16540 --- [user-service] [nio-8081-exec-2] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:35:04.269+05:30  INFO 16540 --- [user-service] [nio-8081-exec-2] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:36:01.920+05:30  INFO 16540 --- [user-service] [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-22T22:36:04.278+05:30  INFO 16540 --- [user-service] [nio-8081-exec-3] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:36:04.278+05:30  INFO 16540 --- [user-service] [nio-8081-exec-3] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:37:04.268+05:30  INFO 16540 --- [user-service] [nio-8081-exec-4] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:37:04.268+05:30  INFO 16540 --- [user-service] [nio-8081-exec-4] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:38:04.284+05:30  INFO 16540 --- [user-service] [nio-8081-exec-5] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:38:04.284+05:30  INFO 16540 --- [user-service] [nio-8081-exec-5] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:39:04.288+05:30  INFO 16540 --- [user-service] [nio-8081-exec-6] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:39:04.289+05:30  INFO 16540 --- [user-service] [nio-8081-exec-6] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:40:04.275+05:30  INFO 16540 --- [user-service] [nio-8081-exec-7] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:40:04.275+05:30  INFO 16540 --- [user-service] [nio-8081-exec-7] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:41:01.991+05:30  INFO 16540 --- [user-service] [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-22T22:41:18.432+05:30  INFO 16540 --- [user-service] [nio-8081-exec-9] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:41:18.433+05:30  INFO 16540 --- [user-service] [nio-8081-exec-9] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:41:21.162+05:30  INFO 16540 --- [user-service] [io-8081-exec-10] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:41:21.165+05:30  INFO 16540 --- [user-service] [io-8081-exec-10] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-22T22:41:21.673+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] c.irctc.user.controller.UserController   : GET /users - Fetching all users
-2026-05-22T22:41:22.195+05:30  INFO 16540 --- [user-service] [nio-8081-exec-1] com.irctc.user.service.UserServiceImpl   : Fetching all users
-Hibernate: 
-    select
-        u1_0.id,
-        u1_0.email,
-        u1_0.name,
-        u1_0.password,
-        u1_0.phone 
-    from
-        users u1_0
-2026-05-23T01:42:24.089+05:30  WARN 16540 --- [user-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h30s95ms34µs100ns).
-2026-05-23T09:51:53.870+05:30  WARN 16540 --- [user-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h9m39s994ms655µs900ns).
-2026-05-23T09:52:06.337+05:30  INFO 16540 --- [user-service] [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/user-service:8081 - Re-registering apps/USER-SERVICE
-2026-05-23T09:52:06.337+05:30  INFO 16540 --- [user-service] [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/user-service:8081: registering service...
-2026-05-23T09:52:06.358+05:30  INFO 16540 --- [user-service] [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/user-service:8081 - registration status: 204
-^C
+        users 
+    where
+        id=?
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:53 min
+[INFO] Finished at: 2026-05-23T12:41:07+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.0:run (default-cli) on project user-service: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

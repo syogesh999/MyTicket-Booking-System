@@ -1,4 +1,4 @@
-import { BaseComponent } from './BaseComponent';
+import { BaseComponent } from '../components/BaseComponent';
 import type { State } from '../state/Store';
 import { store } from '../state/Store';
 import { client } from '../api/Client';

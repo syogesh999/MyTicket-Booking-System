@@ -1,12 +1,12 @@
-import './style.css';
+import './styles/style.css';
 import { store } from './state/Store';
 import { client } from './api/Client';
 import { Navbar } from './components/Navbar';
-import { Dashboard } from './components/Dashboard';
-import { TrainFinder } from './components/TrainFinder';
+import { Dashboard } from './pages/Dashboard';
+import { TrainFinder } from './pages/TrainFinder';
 import { BookingModal } from './components/BookingModal';
 import { PaymentDrawer } from './components/PaymentDrawer';
-import { SystemMonitor } from './components/SystemMonitor';
+import { SystemMonitor } from './pages/SystemMonitor';
 
 // Mount shell structure in app root
 const app = document.querySelector<HTMLDivElement>('#app')!;

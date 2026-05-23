@@ -1,7 +1,7 @@
 import { store } from '../state/Store';
 import type { User, Train, Booking, Payment } from '../state/Store';
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
 
 class ApiClient {
   private async request<T>(path: string, options: RequestInit = {}): Promise<T> {
