@@ -1,0 +1,11 @@
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\service\UserServiceImpl.java
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\exception\DuplicateEmailException.java
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\repository\UserRepository.java
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\entity\User.java
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\exception\UserNotFoundException.java
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\controller\UserController.java
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\dto\UserResponseDTO.java
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\exception\GlobalExceptionHandler.java
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\UserServiceApplication.java
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\dto\UserRequestDTO.java
+C:\Users\Admin\SourceCode\MyTicket-Booking-System\user-service\src\main\java\com\irctc\user\service\UserService.java

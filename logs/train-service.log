@@ -1,0 +1,527 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.irctc:train-service >-----------------------
+[INFO] Building train-service 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.0:run (default-cli) > test-compile @ train-service >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ train-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ train-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ train-service ---
+[INFO] skip non existing resourceDirectory C:\Users\Admin\SourceCode\MyTicket-Booking-System\train-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ train-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.0:run (default-cli) < test-compile @ train-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.0:run (default-cli) @ train-service ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2026-05-22T22:25:59.062+05:30  INFO 35660 --- [train-service] [           main] c.irctc.train.TrainServiceApplication    : Starting TrainServiceApplication using Java 17.0.12 with PID 35660 (C:\Users\Admin\SourceCode\MyTicket-Booking-System\train-service\target\classes started by Admin in C:\Users\Admin\SourceCode\MyTicket-Booking-System\train-service)
+2026-05-22T22:25:59.062+05:30  INFO 35660 --- [train-service] [           main] c.irctc.train.TrainServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-05-22T22:26:00.957+05:30  INFO 35660 --- [train-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-22T22:26:01.252+05:30  INFO 35660 --- [train-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 278 ms. Found 1 JPA repository interface.
+2026-05-22T22:26:01.687+05:30  INFO 35660 --- [train-service] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c1a11445-7509-3f60-87e4-e16b355d1b24
+2026-05-22T22:26:02.163+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-05-22T22:26:02.171+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.176+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.190+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.195+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.198+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$600/0x000002caa446b018] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.201+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.214+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.225+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.233+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.233+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.233+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.260+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.275+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.280+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.281+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.281+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.289+05:30  WARN 35660 --- [train-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-05-22T22:26:02.946+05:30  INFO 35660 --- [train-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-05-22T22:26:02.966+05:30  INFO 35660 --- [train-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-22T22:26:02.966+05:30  INFO 35660 --- [train-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-05-22T22:26:03.122+05:30  INFO 35660 --- [train-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-22T22:26:03.125+05:30  INFO 35660 --- [train-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3979 ms
+2026-05-22T22:26:03.409+05:30  INFO 35660 --- [train-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-22T22:26:03.775+05:30  INFO 35660 --- [train-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ticket_booking_trains user=SA
+2026-05-22T22:26:03.775+05:30  INFO 35660 --- [train-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-22T22:26:03.790+05:30  INFO 35660 --- [train-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ticket_booking_trains'
+2026-05-22T22:26:04.397+05:30  INFO 35660 --- [train-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-22T22:26:04.536+05:30  INFO 35660 --- [train-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-05-22T22:26:04.625+05:30  INFO 35660 --- [train-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-22T22:26:05.130+05:30  INFO 35660 --- [train-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-22T22:26:05.233+05:30  WARN 35660 --- [train-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-22T22:26:06.964+05:30  INFO 35660 --- [train-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    create table trains (
+        id bigint generated by default as identity,
+        available_seats integer not null,
+        destination varchar(255) not null,
+        fare float(53) not null,
+        source varchar(255) not null,
+        train_name varchar(255) not null,
+        train_number varchar(10) not null,
+        primary key (id)
+    )
+Hibernate: 
+    alter table if exists trains 
+       drop constraint if exists UK_dlkwl1181821gq3pp6drxnuej
+Hibernate: 
+    alter table if exists trains 
+       add constraint UK_dlkwl1181821gq3pp6drxnuej unique (train_number)
+2026-05-22T22:26:07.105+05:30  INFO 35660 --- [train-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-22T22:26:07.964+05:30  INFO 35660 --- [train-service] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-22T22:26:08.987+05:30  WARN 35660 --- [train-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-22T22:26:11.966+05:30  INFO 35660 --- [train-service] [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-05-22T22:26:12.119+05:30  WARN 35660 --- [train-service] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-05-22T22:26:12.148+05:30  INFO 35660 --- [train-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2026-05-22T22:26:12.309+05:30  INFO 35660 --- [train-service] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-05-22T22:26:12.474+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-05-22T22:26:12.484+05:30  INFO 35660 --- [train-service] [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-22T22:26:12.551+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-05-22T22:26:12.551+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-05-22T22:26:12.551+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-05-22T22:26:12.551+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-05-22T22:26:12.551+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-05-22T22:26:12.551+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-05-22T22:26:12.551+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-05-22T22:26:13.346+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-05-22T22:26:13.353+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-05-22T22:26:13.358+05:30  INFO 35660 --- [train-service] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-05-22T22:26:13.366+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1779468973365 with initial instances count: 1
+2026-05-22T22:26:13.382+05:30  INFO 35660 --- [train-service] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TRAIN-SERVICE with eureka with status UP
+2026-05-22T22:26:13.384+05:30  INFO 35660 --- [train-service] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779468973384, current=UP, previous=STARTING]
+2026-05-22T22:26:13.387+05:30  INFO 35660 --- [train-service] [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/train-service:8082: registering service...
+2026-05-22T22:26:13.439+05:30  INFO 35660 --- [train-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path ''
+2026-05-22T22:26:13.439+05:30  INFO 35660 --- [train-service] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2026-05-22T22:26:13.478+05:30  INFO 35660 --- [train-service] [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/train-service:8082 - registration status: 204
+2026-05-22T22:26:13.732+05:30  INFO 35660 --- [train-service] [           main] c.irctc.train.TrainServiceApplication    : Started TrainServiceApplication in 15.97 seconds (process running for 16.717)
+2026-05-22T22:28:04.543+05:30  INFO 35660 --- [train-service] [nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22T22:28:04.545+05:30  INFO 35660 --- [train-service] [nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-22T22:28:04.550+05:30  INFO 35660 --- [train-service] [nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-05-22T22:28:04.810+05:30  INFO 35660 --- [train-service] [nio-8082-exec-2] c.irctc.train.service.TrainServiceImpl   : Creating train: 12301
+Hibernate: 
+    select
+        t1_0.id 
+    from
+        trains t1_0 
+    where
+        t1_0.train_number=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        trains
+        (available_seats, destination, fare, source, train_name, train_number, id) 
+    values
+        (?, ?, ?, ?, ?, ?, default)
+2026-05-22T22:28:05.063+05:30  INFO 35660 --- [train-service] [nio-8082-exec-2] c.irctc.train.service.TrainServiceImpl   : Train created with ID: 1
+2026-05-22T22:28:05.203+05:30  INFO 35660 --- [train-service] [nio-8082-exec-1] c.irctc.train.service.TrainServiceImpl   : Creating train: 12626
+Hibernate: 
+    select
+        t1_0.id 
+    from
+        trains t1_0 
+    where
+        t1_0.train_number=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        trains
+        (available_seats, destination, fare, source, train_name, train_number, id) 
+    values
+        (?, ?, ?, ?, ?, ?, default)
+2026-05-22T22:28:05.209+05:30  INFO 35660 --- [train-service] [nio-8082-exec-1] c.irctc.train.service.TrainServiceImpl   : Train created with ID: 2
+2026-05-22T22:28:05.303+05:30  INFO 35660 --- [train-service] [nio-8082-exec-3] c.irctc.train.service.TrainServiceImpl   : Creating train: 12951
+Hibernate: 
+    select
+        t1_0.id 
+    from
+        trains t1_0 
+    where
+        t1_0.train_number=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        trains
+        (available_seats, destination, fare, source, train_name, train_number, id) 
+    values
+        (?, ?, ?, ?, ?, ?, default)
+2026-05-22T22:28:05.307+05:30  INFO 35660 --- [train-service] [nio-8082-exec-3] c.irctc.train.service.TrainServiceImpl   : Train created with ID: 3
+2026-05-22T22:28:05.376+05:30  INFO 35660 --- [train-service] [nio-8082-exec-5] c.irctc.train.service.TrainServiceImpl   : Creating train: 12433
+Hibernate: 
+    select
+        t1_0.id 
+    from
+        trains t1_0 
+    where
+        t1_0.train_number=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        trains
+        (available_seats, destination, fare, source, train_name, train_number, id) 
+    values
+        (?, ?, ?, ?, ?, ?, default)
+2026-05-22T22:28:05.395+05:30  INFO 35660 --- [train-service] [nio-8082-exec-5] c.irctc.train.service.TrainServiceImpl   : Train created with ID: 4
+2026-05-22T22:28:05.479+05:30  INFO 35660 --- [train-service] [nio-8082-exec-6] c.irctc.train.service.TrainServiceImpl   : Creating train: 12622
+Hibernate: 
+    select
+        t1_0.id 
+    from
+        trains t1_0 
+    where
+        t1_0.train_number=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        trains
+        (available_seats, destination, fare, source, train_name, train_number, id) 
+    values
+        (?, ?, ?, ?, ?, ?, default)
+2026-05-22T22:28:05.479+05:30  INFO 35660 --- [train-service] [nio-8082-exec-6] c.irctc.train.service.TrainServiceImpl   : Train created with ID: 5
+2026-05-22T22:28:05.569+05:30  INFO 35660 --- [train-service] [nio-8082-exec-4] c.irctc.train.service.TrainServiceImpl   : Creating train: 12273
+Hibernate: 
+    select
+        t1_0.id 
+    from
+        trains t1_0 
+    where
+        t1_0.train_number=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        trains
+        (available_seats, destination, fare, source, train_name, train_number, id) 
+    values
+        (?, ?, ?, ?, ?, ?, default)
+2026-05-22T22:28:05.575+05:30  INFO 35660 --- [train-service] [nio-8082-exec-4] c.irctc.train.service.TrainServiceImpl   : Train created with ID: 6
+2026-05-22T22:28:05.649+05:30  INFO 35660 --- [train-service] [nio-8082-exec-7] c.irctc.train.service.TrainServiceImpl   : Creating train: 22691
+Hibernate: 
+    select
+        t1_0.id 
+    from
+        trains t1_0 
+    where
+        t1_0.train_number=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        trains
+        (available_seats, destination, fare, source, train_name, train_number, id) 
+    values
+        (?, ?, ?, ?, ?, ?, default)
+2026-05-22T22:28:05.649+05:30  INFO 35660 --- [train-service] [nio-8082-exec-7] c.irctc.train.service.TrainServiceImpl   : Train created with ID: 7
+2026-05-22T22:28:05.731+05:30  INFO 35660 --- [train-service] [nio-8082-exec-8] c.irctc.train.service.TrainServiceImpl   : Creating train: 12978
+Hibernate: 
+    select
+        t1_0.id 
+    from
+        trains t1_0 
+    where
+        t1_0.train_number=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        trains
+        (available_seats, destination, fare, source, train_name, train_number, id) 
+    values
+        (?, ?, ?, ?, ?, ?, default)
+2026-05-22T22:28:05.731+05:30  INFO 35660 --- [train-service] [nio-8082-exec-8] c.irctc.train.service.TrainServiceImpl   : Train created with ID: 8
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+2026-05-22T22:31:12.565+05:30  INFO 35660 --- [train-service] [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+2026-05-22T22:36:12.571+05:30  INFO 35660 --- [train-service] [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+2026-05-22T22:41:12.820+05:30  INFO 35660 --- [train-service] [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.available_seats,
+        t1_0.destination,
+        t1_0.fare,
+        t1_0.source,
+        t1_0.train_name,
+        t1_0.train_number 
+    from
+        trains t1_0
+2026-05-23T01:42:04.504+05:30  WARN 35660 --- [train-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h30s84ms854µs).
+2026-05-23T09:52:04.858+05:30  WARN 35660 --- [train-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h9m39s990ms63µs500ns).
+2026-05-23T09:52:15.025+05:30  INFO 35660 --- [train-service] [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/train-service:8082 - Re-registering apps/TRAIN-SERVICE
+2026-05-23T09:52:15.025+05:30  INFO 35660 --- [train-service] [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/train-service:8082: registering service...
+2026-05-23T09:52:15.036+05:30  INFO 35660 --- [train-service] [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/train-service:8082 - registration status: 204
+^C

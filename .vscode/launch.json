@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug Discovery Server",
+            "request": "launch",
+            "mainClass": "com.irctc.discovery.DiscoveryServerApplication",
+            "projectName": "discovery-server"
+        },
+        {
+            "type": "java",
+            "name": "Debug API Gateway",
+            "request": "launch",
+            "mainClass": "com.irctc.gateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
+            "name": "Debug User Service",
+            "request": "launch",
+            "mainClass": "com.irctc.user.UserServiceApplication",
+            "projectName": "user-service"
+        },
+        {
+            "type": "java",
+            "name": "Debug Train Service",
+            "request": "launch",
+            "mainClass": "com.irctc.train.TrainServiceApplication",
+            "projectName": "train-service"
+        },
+        {
+            "type": "java",
+            "name": "Debug Booking Service",
+            "request": "launch",
+            "mainClass": "com.irctc.booking.BookingServiceApplication",
+            "projectName": "booking-service"
+        },
+        {
+            "type": "java",
+            "name": "Debug Payment Service",
+            "request": "launch",
+            "mainClass": "com.irctc.payment.PaymentServiceApplication",
+            "projectName": "payment-service"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Debug All Services",
+            "configurations": [
+                "Debug Discovery Server",
+                "Debug API Gateway",
+                "Debug User Service",
+                "Debug Train Service",
+                "Debug Booking Service",
+                "Debug Payment Service"
+            ]
+        }
+    ]
+}

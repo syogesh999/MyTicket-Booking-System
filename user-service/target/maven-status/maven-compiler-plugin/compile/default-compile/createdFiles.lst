@@ -1,0 +1,14 @@
+com\irctc\user\dto\UserResponseDTO.class
+com\irctc\user\service\UserService.class
+com\irctc\user\dto\UserRequestDTO.class
+com\irctc\user\dto\UserRequestDTO$UserRequestDTOBuilder.class
+com\irctc\user\controller\UserController.class
+com\irctc\user\dto\UserResponseDTO$UserResponseDTOBuilder.class
+com\irctc\user\exception\DuplicateEmailException.class
+com\irctc\user\exception\GlobalExceptionHandler.class
+com\irctc\user\UserServiceApplication.class
+com\irctc\user\exception\UserNotFoundException.class
+com\irctc\user\entity\User.class
+com\irctc\user\service\UserServiceImpl.class
+com\irctc\user\entity\User$UserBuilder.class
+com\irctc\user\repository\UserRepository.class
